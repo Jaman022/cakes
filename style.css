@@ -1,0 +1,97 @@
+.content {
+    align-items: center;
+}
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+    width: 1180px;
+    height: 60px;
+    left: 370px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.berry {
+    position: absolute;
+    display: flex;
+    width: 170px;
+    height: 174px;
+    top: 380.19px;
+    left: 264px;
+    transform: rotate;
+}
+.leaf {
+    position: absolute;
+    display: flex;
+    width: 161px;
+    height: 167px;
+    top: 1192px;
+    left: 1524px;
+}
+.leaf2 {
+    position: absolute;
+    display: flex;
+    width: 108.93px;
+    height: 112.99px;
+    top: 1486.15px;
+    left: 252px;
+    transform: rotate(80deg);
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    position: relative;
+    width: 1180px;
+    height: 1786px;
+    top: 140px;
+    left: 370px;
+    gap: 20px;
+}
+.cakecont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 1180px;
+    height: 582px;
+    gap: 20px;
+}
+.item {
+    width: 380px;
+    height: 582px;
+    box-shadow: 2px 8px 16px 0px rgba(194, 198, 208, 0.16);
+
+}
+.item cakes {
+    width: 380px;
+    height: 245px;
+}
+.name h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34.32px;
+}
+.name p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.price p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.price button {
+    width: 163px;
+    height: 68px;
+    border-radius: 8px;
+    gap: 10px;
+    padding: 20px 40px 20px 40px;
+    background-color: rgba(254, 216, 76, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27.36px;
+    border: none;
+    color: black;
+}
